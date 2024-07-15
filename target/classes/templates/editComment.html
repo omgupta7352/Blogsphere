@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit Comment</title>
+     <link rel="stylesheet" th:href="@{/css/edit.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+      <div class="logo">Blog<sub>S</sub>phere</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a th:href="@{/about}">About Us</a></li>
+        <!--<li><a href="team.html">Team</a></li>-->
+        <li><a th:href="@{/createPost}">Create</a></li>
+        <li><a th:href="@{/view}">View</a></li>
+      </ul>
+    </nav>
+    
+    <div class="container">
+    <div class="contact-box">
+			<div class="left">
+			<img src="/img/blogss.svg">
+			</div>
+        <form class="right" th:action="@{/post/{postId}/comment/{commentId}(postId=${comment.post.id}, commentId=${comment.id})}" method="post">
+        <h2>Edit Comment</h2>
+            <input class="field" type="text" name="name" th:value="${comment.name}" placeholder="Your Name" required>
+            <input class="field" type="email" name="email" th:value="${comment.email}" placeholder="Your Email" required>
+            <textarea class="field" name="comment_desc" placeholder="Your Comment" required th:text="${comment.comment_desc}"></textarea>
+            <button class="btn" type="submit">Update Comment</button>
+        </form>
+        </div>
+        </div>
+    
+</body>
+</html>

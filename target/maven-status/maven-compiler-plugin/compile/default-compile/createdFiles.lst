@@ -1,0 +1,9 @@
+com\blogsphere\blogsphere\entity\Comment.class
+com\blogsphere\blogsphere\repository\CommentRepo.class
+com\blogsphere\blogsphere\BlogsphereApplication.class
+com\blogsphere\blogsphere\service\CommentService.class
+com\blogsphere\blogsphere\controller\PostController.class
+com\blogsphere\blogsphere\entity\Post.class
+com\blogsphere\blogsphere\repository\PostRepo.class
+com\blogsphere\blogsphere\service\PostService.class
+com\blogsphere\blogsphere\controller\CommentController.class

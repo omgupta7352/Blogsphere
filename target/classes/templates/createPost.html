@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+   <title>BlogSphere</title>
+   <link rel="stylesheet" th:href="@{/css/creates.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav>
+      <div class="logo">Blog<sub>S</sub>phere</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <!--<li><a href="team.html">Team</a></li>-->
+        <li><a href="createPost">Create</a></li>
+        <li><a href="view">View</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="container">
+    <div class="contact-box">
+			<div class="left">
+			<img src="/img/blogss.svg">
+			</div>
+        <form class="right" th:action="@{/createPost}" method="post">
+        <h2>Create Blog</h2>
+            <input class="field" type="text" name="title" placeholder="Title" required>
+            <textarea class="field" name="description" placeholder="Description" required></textarea>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+    
+    <footer class="foot">
+        <h4>@ Copyright BlogSphere</h4>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+   <title>BlogSphere</title>
+   <link rel="stylesheet" th:href="@{/css/creat.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="b1">
+<nav>
+      <div class="logo">Blog<sub>S</sub>phere</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a th:href="@{/about}">About Us</a></li>
+        <!--<li><a href="team.html">Team</a></li>-->
+        <li><a th:href="@{/createPost}">Create</a></li>
+        <li><a th:href="@{/view}">View</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="contact-box">
+                <div class="left">
+                <img src="/img/blogss.svg">
+                </div>
+            <form class="right" th:action="@{'/posts/' + ${postId} + '/addComment'}" method="post">
+            <h2>Add Comment</h2>
+                <input class="field" type="text" id="name" name="name" placeholder="Name" required>
+                <input class="field" type="email" id="email" name="email" placeholder="Email" required>
+                <textarea class="field" id="comment_desc" name="comment_desc" placeholder="Comment" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    
+    <footer class="foot">
+        <h4>@ Copyright BlogSphere</h4>
+    </footer>
+    
+</body>
+</html>
