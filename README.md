@@ -27,10 +27,15 @@ You can try out the BlogSphere live [here](https://blogsphere-k6xl.onrender.com/
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- React
+- JAVA17
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring Security
+- PostgreSQL
+- Lombok
+- Thymeleaf
+- Maven
 
 ## Installation
 
