@@ -44,28 +44,28 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/omgupta7352/Weather-app.git
+    git clone https://github.com/omgupta7352/Blogsphere.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd Weather-app
+    cd Blogsphere
     ```
 
-3. Install the dependencies:
+
+3. Build and run the application:
 
     ```bash
-    npm install
+    mvn clean install
     ```
-
-4. Start the development server:
 
     ```bash
-    npm start
+    mvn spring-boot:run
     ```
+    
 
-5. Open your web browser and go to `http://localhost:3000`.
+4. Open your web browser and go to `http://localhost:8080`.
 
 ## API Endpoints
 
