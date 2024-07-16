@@ -1,4 +1,4 @@
-# Weather App ⛈️
+# BlogSphere 
 
 ![WEATHER APP](ime1.png)
 ![](ime2.png)
@@ -81,8 +81,6 @@ To run this project locally, follow these steps:
    - `POST /api/posts/{postId}/comments`: Add a comment to a post
    - `PUT /api/comments/{id}`: Update a comment
    - `DELETE /api/comments/{id}`: Delete a comment
-
-3. View these details in both Celsius and Fahrenheit. Include an option for the user to toggle between these units.
 
 
 ## Contributing
