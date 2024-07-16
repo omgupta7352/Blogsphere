@@ -23,7 +23,7 @@ The WeatherApp project is a web-based application that allows users to check the
 
 ## Demo
 
-You can try out the Weather App live [here](https://weather-app-omgupta.netlify.app/).
+You can try out the BlogSphere live [here](https://blogsphere-k6xl.onrender.com/).
 
 ## Technologies Used
 
