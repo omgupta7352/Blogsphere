@@ -69,21 +69,18 @@ To run this project locally, follow these steps:
 
 ## API Endpoints
 
-The user should be able to:
-
-1. Enter a city name and view the current weather details of the city, which includes:
+1. Posts
    - `GET /api/posts`: Get all posts
-   - Minimum and maximum temperature
-   - Humidity
-   - Wind speed and direction
-   - Description of the weather (e.g., clear sky, light rain, etc.)
-   - An appropriate icon reflecting the current weather
+   - `GET /api/posts/{id}`: Get a single post by ID
+   - `POST /api/posts`: Create a new post
+   - `PUT /api/posts/{id}`: Update an existing post
+   - `DELETE /api/posts/{id}`: Delete a post
 
-2. View a 5-day forecast for the selected city, displaying:
-   - Date
-   - Average temperature
-   - Description of the weather
-   - An appropriate weather icon
+2. Comments
+   - `GET /api/posts/{postId}/comments`: Get all comments for a post
+   - `POST /api/posts/{postId}/comments`: Add a comment to a post
+   - `PUT /api/comments/{id}`: Update a comment
+   - `DELETE /api/comments/{id}`: Delete a comment
 
 3. View these details in both Celsius and Fahrenheit. Include an option for the user to toggle between these units.
 
