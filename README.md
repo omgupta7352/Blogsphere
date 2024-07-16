@@ -11,7 +11,7 @@ This project is a comprehensive blogging platform built using Spring Boot, Thyme
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
 
 ## Features
@@ -67,12 +67,12 @@ To run this project locally, follow these steps:
 
 5. Open your web browser and go to `http://localhost:3000`.
 
-## Usage
+## API Endpoints
 
 The user should be able to:
 
 1. Enter a city name and view the current weather details of the city, which includes:
-   - Current temperature
+   - `GET /api/posts`: Get all posts
    - Minimum and maximum temperature
    - Humidity
    - Wind speed and direction
