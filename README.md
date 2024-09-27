@@ -6,7 +6,7 @@
 ![](viewblog.png)
 ![](edit.png)
 ![](viewpost.png)
-![](eitpost.png)
+![](editpost.png)
 
 This project is a comprehensive blogging platform built using Spring Boot, Thymeleaf, and PostgreSQL. It offers features such as post creation, viewing, updating, and deletion, along with a robust commenting system supporting nested comments.
 
