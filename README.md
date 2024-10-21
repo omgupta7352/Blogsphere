@@ -21,10 +21,10 @@ This project is a comprehensive blogging platform built using Spring Boot, Thyme
 
 ## Features
 
-- Search for the current weather in any city.
-- Display weather details such as temperature, humidity, and wind speed.
-- Show a 5-day weather forecast.
-- Responsive design for mobile and desktop use.
+- User Authentication (Login/Registration)
+- Create, Read, Update, Delete (CRUD) for blog posts
+- Commenting system with nested replies
+- Responsive design with Thymeleaf templates
 
 ## Demo
 
