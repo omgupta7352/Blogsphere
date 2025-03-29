@@ -14,6 +14,7 @@ This project is a comprehensive blogging platform built using Spring Boot, Thyme
 
 - [Features](#features)
 - [Demo](#demo)
+- [Diagram](#diagram)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
@@ -29,6 +30,12 @@ This project is a comprehensive blogging platform built using Spring Boot, Thyme
 ## Demo
 
 You can try out the BlogSphere live [here](https://blogsphere-s-vyjr.onrender.com).
+
+## Diagram
+
+```
+
+```
 
 ## Technologies Used
 
