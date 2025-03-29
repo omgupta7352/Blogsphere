@@ -35,6 +35,19 @@ You can try out the BlogSphere live [here](https://blogsphere-s-vyjr.onrender.co
 
 ```
 
++-----------------+              +-----------------+
+|      Post       | 1          * |    Comment      |
++-----------------+ <----------> +-----------------+
+| - id: Long      |              | - id: Long      |
+| - title: String |              | - name: String  |
+| - description:  |              | - email: String |
+|   String        |              | - comment_desc: |
+|                 |              |   String        |
+|                 |              | - post: Post    |
++-----------------+              +-----------------+
+                                  
+
+
 ```
 
 ## Technologies Used
