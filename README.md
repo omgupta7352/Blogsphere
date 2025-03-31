@@ -1,4 +1,4 @@
-# BlogSphere 
+# BlogSphere 🗒️🌏
 
 ![BLOGSPHERE](home.png)
 ![](about.png)
